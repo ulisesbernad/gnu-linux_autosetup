@@ -4,32 +4,25 @@ Sometimes post-install can be repetitive for that reason I created this script f
 
 Thanks for using it! :smiling_face_with_three_hearts:
 
-## Downloading the repo code and running it.
+## Downloading the repo code.
 
 **To download the repo:**
 ```
 git clone https://github.com/ulisesbernad/gnu-linux_autosetup.git 
 ```
-
-**To execute the repo use:**
-```
-git clone https://github.com/ulisesbernad/gnu-linux_autosetup.git i
-```
-
 ## Fedora
 
 **To execute the repo use:**
 ```
 sudo sh fedora/post-install.sh
 ```
-
 | **Software installed** | 
 | ----------------------- |
 | [Telegram](https://telegram.org/) |
-| [Visual Code](https://code.visualstudio.com/) |
 | [gnome-screenshot](https://help.gnome.org/users/gnome-help/stable/screen-shot-record.html.en) |
+| [Visual Code](https://code.visualstudio.com/) |
 | [vim](https://www.vim.org/) |
 
 #
-![This is an image](https://es.wikipedia.org/wiki/GNU/Linux#/media/Archivo:Gnulinux.svg)
+![](https://upload.wikimedia.org/wikipedia/commons/c/c9/Gnulinux.svg)
 
