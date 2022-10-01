@@ -6,12 +6,12 @@
 #Telegram installation 
 cd $HOME
 cd Descargas/
-wget https://updates.tdesktop.com/tlinux/tsetup.4.1.0.tar.xz
-tar -xf tsetup.4.1.0.tar.xz
-rm tsetup.4.1.0.tar.xz 
+wget https://updates.tdesktop.com/tlinux/tsetup.4.2.4.tar.xz
+tar -xf tsetup.4.2.4.tar.xz
+rm tsetup.4.2.4.tar.xz 
 cd Telegram/
 ./Telegram 
-./Updater 
+./Updater
 
 # snapshot tools on Fedora (GNOME)
 sudo dnf install gnome-screenshot -y
