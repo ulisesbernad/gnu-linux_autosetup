@@ -24,3 +24,13 @@ sudo dnf install code -y
 
 #vim installation
 sudo dnf install vim -y
+
+#gdm-settings
+sudo dnf install gdm polkit libadwaita-devel glib2-devel pygobject3-devel gettext
+sudo dnf install meson gobject-introspection -y 
+git clone --depth=1 https://github.com/realmazharhussain/gdm-settings
+cd gdm-settings
+meson build
+meson compile -C build
+sudo meson install -C build
+
